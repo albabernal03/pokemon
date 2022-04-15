@@ -1,5 +1,5 @@
-def definir_pokemon(self):
-        Venusaur = 'pokemon_1'
+#def definir_pokemon(self):
+        #Venusaur = 'pokemon_1'
         pokemon_2 = self.Charmander
         pokemon_3 = self.Bulbasaur
         pokemon_4 = self.Squirtle

@@ -2,7 +2,7 @@ import random
 
 
 class pokemon:
-  def __init__(self, pokemon_1, pokemon_2, pokemon_3, pokemon_4, arma_1, arma_2, arma_3, arma_4, id, nombre, salud, lista_1,lista_2, arma):
+  def __init__(self, pokemon_1, pokemon_2, pokemon_3, pokemon_4, arma_1, arma_2, arma_3, arma_4, id, nombre, salud, lista_1,lista_2, arma, seleccion, x):
         self.pokemon_1 = pokemon_1
         self.pokemon_2 = pokemon_2
         self.pokemon_3 = pokemon_3
@@ -17,13 +17,12 @@ class pokemon:
         self.lista_1 = lista_1
         self.lista_2 = lista_2
         self.arma= arma
-       
+        self.seleccion = seleccion
     
         
 
   def definir_pokemon(self):
         print ('.:BIENVENIDO AL MUNDO POKEMON:.')
-        x = input('Desea jugar? (si/no):')
         pokemon_1 = 'Venausaur'
         pokemon_2 = 'Charmander'
         pokemon_3 = 'Bulbasaur'
@@ -38,12 +37,18 @@ class pokemon:
         id = random.randint(1,100)
         arma = random.choice(lista_2)
         salud = random.randint(1,100)
-        if x == 'si':
-            print('Pokemon ID', '{}'.format(id), 'con nombre', '{}'.format(nombre), 'tiene arma', '{}'.format(arma), 'y salud', '{}'.format(salud))
-        elif x== 'no':
-            print('Gracias por jugar')
+        x = input('Desea jugar? (si/no):')
+        return x
+
+  def juego (definir_pokemon):
+      x = definir_pokemon()
+      if x == 'si':
+          print('Pokemon ID', '{}'.format(id), 'con nombre', '{}'.format(nombre), 'tiene arma', '{}'.format(arma), 'y salud', '{}'.format(salud))
+      elif x== 'no':
+          print('Gracias por jugar')
   
-print(pokemon.definir_pokemon('x'))
+  
+print(pokemon.juego('x'))
 
 
 
