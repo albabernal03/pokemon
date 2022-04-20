@@ -15,7 +15,7 @@ Por otro lado luego se nos pide una ampliacion de este, en el que encontramos cu
 ***
 
 ## Índice
-1. doe
-2. fff
-3. ff
-4. ff
+1. Clase pokemon
+2. Clase ataque
+3. Clase extension_pokemon
+4. Clase estension_ataque
