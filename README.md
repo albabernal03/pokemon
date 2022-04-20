@@ -96,5 +96,4 @@ class Pokemon:
 print(Pokemon.menu('opcion'))
 print( Pokemon.pokemon_jugador('seleccion'))
 print(Pokemon.pokemon_maquina('seleccion_maquina'))
-
-
+``
