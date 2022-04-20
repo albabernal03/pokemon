@@ -15,10 +15,10 @@ Por otro lado luego se nos pide una ampliacion de este, en el que encontramos cu
 ***
 
 ## Índice
-1. Clase Pokemon
-2. Clase Ataque
-3. Clase Pokemon2
-4. Clase Ataque2
+1. [Clase Pokemon](#id1)
+2. [Clase Ataque](#id2)
+3. [Clase Pokemon2](#id3)
+4. [Clase Ataque2](#id4)
 
 ***
 
