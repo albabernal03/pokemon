@@ -93,7 +93,11 @@ class Ataque2:
         else:
             return True
 
-
+print(Ataque2.partida('turno', 'pokemon_jugador','pokemon_maquina'))
+print(Ataque2.ataque_jugador('pokemon_jugador','pokemon_maquina'))
+print(Ataque2.ataque_maquina('pokemon_maquina', 'pokemon_jugador'))
+print(Ataque2.is_alive('pokemon_jugador'))
+print(Ataque2.is_alive('pokemon_maquina'))
 
 
 
