@@ -98,6 +98,9 @@ print(Pokemon.menu('opcion'))
 print( Pokemon.pokemon_jugador('seleccion'))
 print(Pokemon.pokemon_maquina('seleccion_maquina'))
 ```
+
+**UML:**
+
 ***
 
 ## Clase Ataque:<a name="id2"></a>
@@ -185,6 +188,8 @@ class Ataque:
             return True
 
 ```
+**UML:**
+
 
 ***
 
@@ -333,6 +338,10 @@ print(Pokemon2.pokemon_jugador('seleccion_jugador'))
 print(Pokemon2.pokemon_maquina('seleccion_maquina'))
 
 ```
+
+**UML:**
+
+
 ***
 
 ## Clase Ataque2:<a name="id4"></a>
@@ -436,4 +445,8 @@ class Ataque2:
             return True
 
 ```
+
+**UML:**
+
+***
 
