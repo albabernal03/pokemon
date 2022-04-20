@@ -467,5 +467,8 @@ print(Ataque2.is_alive('pokemon_maquina'))
 
 **UML:**
 
+<img width="203" alt="Ataque2 diagrama" src="https://user-images.githubusercontent.com/91721875/164303815-9304baff-ab10-474d-b276-8afcef344318.png">
+
+
 ***
 
