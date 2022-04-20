@@ -69,3 +69,16 @@ def ataque_maquina(pokemon_maquina, pokemon_jugador):
         
 
 
+#Funcion que verifica el estado del pokemon del jugador 
+def is_alive(pokemon_jugador):
+    if pokemon_jugador.salud <= 0:
+        return False
+    else:
+        return True
+
+#Funcion que verifica el estado del pokemon de la maquina
+def is_alive(pokemon_maquina):
+    if pokemon_maquina.salud <= 0:
+        return False
+    else:
+        return True
