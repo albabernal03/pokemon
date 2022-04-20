@@ -19,7 +19,9 @@ class Pokemon:
     
         
 
-  def pokemon_jugador(self):
+  def definir_pokemon(self):
+        print ('.:BIENVENIDO AL MUNDO POKEMON:.')
+        x = input('Desea jugar? (si/no):')
         pokemon_1 = 'Venausaur'
         pokemon_2 = 'Charmander'
         pokemon_3 = 'Bulbasaur'
@@ -35,8 +37,11 @@ class Pokemon:
         arma = random.choice(lista_2)
         salud = random.randint(1,100)
         seleccion = print ('_El pokemon obtenido es el siguiente_:''Pokemon ID', '{}'.format(id), 'con nombre', '{}'.format(nombre), 'tiene arma', '{}'.format(arma), 'y salud', '{}'.format(salud))
-        print(seleccion)
-        
+        if x == 'si':
+            print(seleccion)
+        elif x== 'no':
+            print('Gracias por jugar')
+
   def pokemon_maquina(self):
         pokemon_1 = 'Venausaur'
         pokemon_2 = 'Charmander'
@@ -55,20 +60,21 @@ class Pokemon:
         seleccion_maquina = print ('_El pokemon obtenido es el siguiente_:''Pokemon ID', '{}'.format(id), 'con nombre', '{}'.format(nombre), 'tiene arma', '{}'.format(arma), 'y salud', '{}'.format(salud))
         print(seleccion_maquina)
 
-  def menu(self):
-      opcion = input('¿Quiere comenzar una partida (si/no):')
-      if opcion == 'si':
-          self.pokemon_jugador()
-          self.pokemon_maquina()
-          self.menu()
-      elif opcion == 'no':
-          print('Gracias por jugar')
-      else:
-          print('Opcion no valida')
-          self.menu
+print( Pokemon.definir_pokemon('seleccion'))
 
 
 
-print(Pokemon.menu('opcion'))
-print( Pokemon.pokemon_jugador('seleccion'))
-print(Pokemon.pokemon_maquina('seleccion_maquina'))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
