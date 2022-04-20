@@ -1,0 +1,1 @@
+print(input('Desea jugar? (si/no):'))
