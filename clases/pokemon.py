@@ -32,7 +32,7 @@ class Pokemon:
         id = random.randint(1,100)
         arma = random.choice(lista_2)
         salud = random.randint(1,100)
-        seleccion = print (_'El pokemon obtenido es el siguiente_:''Pokemon ID', '{}'.format(id), 'con nombre', '{}'.format(nombre), 'tiene arma', '{}'.format(arma), 'y salud', '{}'.format(salud))
+        seleccion = print ('El pokemon obtenido es el siguiente_:''Pokemon ID', '{}'.format(id), 'con nombre', '{}'.format(nombre), 'tiene arma', '{}'.format(arma), 'y salud', '{}'.format(salud))
         print(seleccion)
         
     def pokemon_maquina(self):
