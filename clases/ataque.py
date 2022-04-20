@@ -1,4 +1,4 @@
-from pokemon import Pokemon
+from clases.pokemon import Pokemon
 import random 
 
 
