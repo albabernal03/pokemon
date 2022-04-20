@@ -22,7 +22,7 @@ Por otro lado luego se nos pide una ampliacion de este, en el que encontramos cu
 
 ***
 
-## Clase Pokemon
+## Clase Pokemon:<a name="id1"></a>
 
 **Código**
 
@@ -100,7 +100,7 @@ print(Pokemon.pokemon_maquina('seleccion_maquina'))
 ```
 ***
 
-## Clase Ataque
+## Clase Ataque:<a name="id2"></a>
 
 **Código**
 
@@ -188,7 +188,7 @@ class Ataque:
 
 ***
 
-## Clase Pokemon2 
+## Clase Pokemon2:<a name="id3"></a>
 
 **Código**
 
@@ -335,7 +335,7 @@ print(Pokemon2.pokemon_maquina('seleccion_maquina'))
 ```
 ***
 
-## Clase Ataque2
+## Clase Ataque2:<a name="id4"></a>
 
 **Código**
 
