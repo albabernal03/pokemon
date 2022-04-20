@@ -353,6 +353,8 @@ print(Pokemon2.pokemon_maquina('seleccion_maquina'))
 
 **UML:**
 
+<img width="195" alt="pokemon2 diagrama" src="https://user-images.githubusercontent.com/91721875/164302747-fb6ca349-e32f-4ad0-ae8d-8faaecd6bc4a.png">
+
 
 ***
 
