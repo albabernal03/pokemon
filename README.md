@@ -186,6 +186,12 @@ class Ataque:
             return False
         else:
             return True
+            
+print(Ataque.partida('turno', 'pokemon_jugador','pokemon_maquina'))
+print(Ataque.ataque_jugador('pokemon_jugador','pokemon_maquina'))
+print(Ataque.ataque_maquina('pokemon_maquina', 'pokemon_jugador'))
+print(Ataque.is_alive('pokemon_jugador'))
+print(Ataque.is_alive('pokemon_maquina'))
 
 ```
 **UML:**
