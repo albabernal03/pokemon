@@ -100,6 +100,9 @@ print(Pokemon.pokemon_maquina('seleccion_maquina'))
 ```
 
 **UML:**
+<img width="202" alt="pokemon diagrama" src="https://user-images.githubusercontent.com/91721875/164299616-ccb8acee-58dc-4c14-93d8-eb32ecb76bec.png">
+
+
 
 ***
 
