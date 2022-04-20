@@ -17,8 +17,8 @@ Por otro lado luego se nos pide una ampliacion de este, en el que encontramos cu
 ## Índice
 1. Clase Pokemon
 2. Clase Ataque
-3. Clase extension_pokemon
-4. Clase estension_ataque
+3. Clase Pokemon2
+4. Clase Ataque2
 
 ***
 
@@ -185,4 +185,8 @@ class Ataque:
             return True
 
 ```
+
+***
+
+## Clase Pokemon2 (ampliación Pokemon)
 
