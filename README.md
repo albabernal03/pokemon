@@ -101,6 +101,10 @@ print(Pokemon.pokemon_maquina('seleccion_maquina'))
 
 **UML:**
 
+<img width="202" alt="pokemon diagrama" src="https://user-images.githubusercontent.com/91721875/164299616-ccb8acee-58dc-4c14-93d8-eb32ecb76bec.png">
+
+
+
 ***
 
 ## Clase Ataque:<a name="id2"></a>
@@ -195,6 +199,8 @@ print(Ataque.is_alive('pokemon_maquina'))
 
 ```
 **UML:**
+
+<img width="213" alt="ataque diagrama" src="https://user-images.githubusercontent.com/91721875/164301525-790f24a4-3707-44b4-8b3a-39c64e1b491f.png">
 
 
 ***
@@ -347,6 +353,8 @@ print(Pokemon2.pokemon_maquina('seleccion_maquina'))
 
 **UML:**
 
+<img width="195" alt="pokemon2 diagrama" src="https://user-images.githubusercontent.com/91721875/164302747-fb6ca349-e32f-4ad0-ae8d-8faaecd6bc4a.png">
+
 
 ***
 
@@ -458,6 +466,9 @@ print(Ataque2.is_alive('pokemon_maquina'))
 ```
 
 **UML:**
+
+<img width="203" alt="Ataque2 diagrama" src="https://user-images.githubusercontent.com/91721875/164303815-9304baff-ab10-474d-b276-8afcef344318.png">
+
 
 ***
 
