@@ -12,6 +12,7 @@ from clases.pokemon import menu
 from clases.pokemon_extension import pokemon_jugador
 from clases.pokemon_extension import pokemon_maquina
 from clases.pokemon_extension import menu
+import csv
 
 if __name__ == '__main__':
   partida()
@@ -55,6 +56,25 @@ if __name__ == '__main__':
     print('Opcion no valida')
     self.menu()
 
-
+if __name__ == "__main__" :
+  print("Comienza el juego.")
+  
+  def elegir_coach():
+    with open('coach.csv', 'r') as csvfile:
+      reader = csv.reader(csvfile)
+      for row in reader:
+        print(row)
+    coach = input("Elige un coach: ")
+    return coach
+  
+  def elegir_pokemon():
+    with open('pokemon.csv', 'r') as csvfile:
+      reader = csv.reader(csvfile)
+      for row in reader:
+        print(row)
+    pokemon = input("Elige un pokemon: ")
+    return pokemon
+  
+  
           
   
