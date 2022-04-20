@@ -65,7 +65,7 @@ class Pokemon:
           print('Gracias por jugar')
       else:
           print('Opcion no valida')
-          self.menu
+          self.menu()
 
 
 
