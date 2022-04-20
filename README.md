@@ -200,6 +200,8 @@ print(Ataque.is_alive('pokemon_maquina'))
 ```
 **UML:**
 
+<img width="213" alt="ataque diagrama" src="https://user-images.githubusercontent.com/91721875/164301525-790f24a4-3707-44b4-8b3a-39c64e1b491f.png">
+
 
 ***
 
